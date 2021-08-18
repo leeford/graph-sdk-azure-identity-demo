@@ -1,0 +1,20 @@
+{
+  "name": "graph-sdk-3-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc ./index.ts",
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/identity": "^1.5.1",
+    "@microsoft/microsoft-graph-client": "^3.0.0",
+    "@microsoft/microsoft-graph-types": "^2.3.0",
+    "dotenv": "^10.0.0",
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
